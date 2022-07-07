@@ -1,0 +1,235 @@
+
+.phim {
+    position: relative;
+    transition: 1s background-image ease-in-out;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.phim iframe {
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+}
+body {
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.53125rem;
+}
+
+ol, ul {
+    list-style: none;
+
+
+}
+body {
+    background-color: #111 !important   ;
+}
+
+
+.episode__current li a {
+    text-transform: none;
+    text-overflow: inherit;
+    padding: 10px 60px;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    text-align: center;
+    color: #ff6500;
+    border-color: #ff6500;
+
+
+}
+
+
+.btn-flow {
+    background: linear-gradient(90deg,#252728,#3f4143) !important;
+    margin-right: 10px;
+    width: 140px !important;
+    padding: 0 20px !important;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.btn-share {
+    width: 110px !important;
+    padding: 0 20px !important;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #ff6500 !important;
+    color: #fff;
+}
+
+.container-tap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-tap__so {
+    flex: 0 0 16.6667%;
+    margin-top: 12px;
+}
+
+.container-tap__so a{
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    background: #2d2d2d;
+    width: 100%;
+    padding: 12px 60px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
+.container-tap__so a:hover {
+    color: #ff6500;
+}
+
+.container-info {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.info-img {
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+    margin-right: 16px;
+}
+.info-img img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.content-film{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-right: 25px;
+}
+
+.content-film p {
+    text-align: justify;
+    color: #828282;
+    overflow: hidden;
+
+}
+
+.container-info h4 {
+    color: #fff !important;
+    margin-bottom: 6px !important;
+}
+
+.content-film h5 {
+    line-height: 1.75rem;
+    color: #828282;
+}
+
+.info-content__table{
+    width: 100%;
+}
+
+.info-content__property {
+    font-weight: 700;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 40%;
+    font-size: 14px;
+    width: 140px;
+}
+
+.info-content__value {
+    width: 200px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: #828282;
+}
+
+.fb-comments {
+    background-color: white;
+}
+
+
+
+.comment-facebook div {
+    background-color: white!important;
+    border-radius: 5px;
+}
+
+
+.h2, h4 {
+    color: #ea8f1c;
+}
+
+#form-rating {
+    margin: 10px 0 0 10px;
+}
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+/*reset css*/
+div,label{margin:0;padding:0;color: black;}
+body{margin:20px;}
+h1{font-size:1.5em;margin:10px;}
+/****** Style Star Rating Widget *****/
+#rating{border:none;float:left;}
+#rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover,
+#rating:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{color:#FFED85;}
+
+
+

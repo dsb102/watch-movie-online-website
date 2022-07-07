@@ -1,0 +1,20 @@
+
+
+.container-chose ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 5px 5px 0;
+}
+
+.container ul li a {
+    color: white;
+
+    margin: 10px 5px 5px 0;
+    text-decoration: none;
+    transition: 0.2s color ease-in;
+}
+
+.container ul li a:hover {
+    color: #ea8f1c;
+}
+

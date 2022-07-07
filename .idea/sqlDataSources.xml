@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="7d703b87-481c-4e29-b69e-8d5bb16c1c58" name="Microsoft SQL Server">
+      <data-sources db="4a32967a-d1d9-48d7-bd04-6cac37da408c" ddl="98a2cef7-c8b2-4626-84e0-3cc6705ea0d5" />
+      <scope>
+        <node kind="database" qname="@">
+          <node kind="schema" qname="@" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>

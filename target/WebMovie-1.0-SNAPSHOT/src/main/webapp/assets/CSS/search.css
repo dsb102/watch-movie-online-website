@@ -1,0 +1,13 @@
+
+
+.container {
+    min-height: 500px;
+}
+
+.movie-list-item-title {
+    text-align: left;
+}
+
+.key-searching {
+    color: #ea8f1c;
+}

@@ -1,0 +1,12 @@
+
+
+
+.container-list-film {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movie-list-item {
+    width: calc(100% / 5);
+}
